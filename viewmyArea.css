@@ -1,0 +1,72 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for the page */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container to center content */
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px; /* Slightly smaller border radius */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Slightly smaller shadow */
+    width: 80%; /* Reduced width */
+    max-width: 600px; /* Reduced max width */
+  }
+  
+  /* Heading style */
+  .heading {
+    font-size: 32px; /* Reduced font size */
+    color: #343a40; /* Dark gray */
+    margin-bottom: 15px; /* Reduced margin */
+    font-weight: bold;
+  }
+  
+  /* Style for the map container */
+  .image-container {
+    margin-bottom: 15px; /* Reduced margin */
+  }
+  
+  /* Image styling */
+  .place-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Slightly smaller border radius */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Slightly smaller shadow */
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 16px; /* Reduced padding */
+    border-radius: 6px; /* Slightly smaller border radius */
+    font-size: 16px; /* Reduced font size */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(-1px); /* Reduced hover effect */
+  }
+  
+  /* Optional text below the image */
+  p {
+    font-size: 16px; /* Reduced font size */
+    color: #555;
+  }
