@@ -4,23 +4,17 @@ Problem Statement
 
 "Lack of Immediate Guidance During Earthquakes in Schools"
 Earthquakes often strike without warning, and while adults may understand basic safety protocols, many school students are unprepared and panic in such situations. Current disaster management systems in schools are often manual and dependent on teachers or administrators, leading to delays in action, confusion, and increased risk of injuries.
-
 Existing Solutions
 Earthquake Drills:
 Schools conduct periodic drills to prepare students, but these are infrequent and often forgotten in real situations.
-
 Alarm Systems:
 Simple alarm systems alert occupants of an earthquake, but they do not provide specific instructions or adapt to the situation.
-
 Mobile Applications:
 Earthquake apps like MyShake or QuakeFeed provide alerts and safety tips, but they rely on smartphones, which are not always accessible to students in schools.
-
 Manual Announcements:
 Teachers or administrators may use PA systems to give instructions, but this depends on human availability and presence of mind, which might fail under stress.
-
 Proposed Solution
 Automated Earthquake Guidance System (AEGS)
-
 A pre-installed software integrated into projectors, mics, and PA systems in schools that automatically activates when an earthquake occurs. It provides real-time instructions tailored for students and teachers, ensuring immediate and effective response.
 
 
