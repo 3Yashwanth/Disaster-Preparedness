@@ -23,8 +23,8 @@ A pre-installed software integrated into projectors, mics, and PA systems in sch
 
 
 Problem Statement
-Efficient and Real-Time Management of Landslide and Road Blockage Alerts for Mountainous and High-Risk Areas"
 
+Efficient and Real-Time Management of Landslide and Road Blockage Alerts for Mountainous and High-Risk Areas"
 Challenges
 Delayed Awareness: Travelers are often unaware of landslides or road blockages until they encounter them, leading to accidents or traffic congestion.
 Lack of Reporting Systems: Emergency road issues are often not reported in real time.
