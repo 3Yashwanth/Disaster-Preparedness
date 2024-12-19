@@ -23,6 +23,11 @@ Automated Earthquake Guidance System (AEGS)
 
 A pre-installed software integrated into projectors, mics, and PA systems in schools that automatically activates when an earthquake occurs. It provides real-time instructions tailored for students and teachers, ensuring immediate and effective response.
 
+
+
+
+
+
 Problem Statement
 Efficient and Real-Time Management of Landslide and Road Blockage Alerts for Mountainous and High-Risk Areas"
 
