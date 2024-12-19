@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Management</title>
+    <link rel="stylesheet" href="updatedanger.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Disaster Management Portal</h1>
+        <p>Upload Image, Video, and Precautions to Save Lives!</p>
+    </div>
+
+    <!-- Main Content Section with Video Background -->
+    <div class="home-container">
+        <!-- Background Video -->
+        <div class="video-container">
+            <video class="background-video" autoplay loop muted>
+                <source src="../videos/sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Upload Section (Form for Image, Video & Precaution) -->
+        <div class="upload-section">
+            <h2>Upload Disaster Image, Video & Precautions</h2>
+
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="imageUpload">Select Area:</label>
+                    <select id="subject">
+                        <option value="v">Kanakpura</option>
+                        <option value="v">Kormangala</option>
+                        <option value="v">whitefield</option>
+                        <option value="v">Others</option>
+                      </select>
+                
+                </div>
+
+                <div class="form-group">
+                    <label for="videoUpload">Upload file (e.g., disaster footage):</label>
+                    <input type="file" id="videoUpload" accept="video/*" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="precaution">Precautionary Measures:</label>
+                    <textarea id="precaution" placeholder="Enter precautionary measures here..." required></textarea>
+                </div>
+
+                <button type="submit"><a href="submit.htm">Submit</a></button>
+            </form>
+        </div>
+
+        <!-- Result Display Section -->
+        <div id="result">
+            <!-- Display uploaded image, video, and precaution here -->
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+           
+            const videoFile = document.getElementById('videoUpload').files[0];
+            const precaution = document.getElementById('precaution').value;
+
+            if ( videoFile && precaution) {
+                // Handle Image Upload
+               
+
+                // Handle Video Upload
+                const video = document.createElement('video');
+                const readerVideo = new FileReader();
+                readerVideo.onload = function(e) {
+                    video.src = e.target.result;
+                    video.controls = true;
+                    video.classList.add('uploaded-video');
+                };
+                readerVideo.readAsDataURL(videoFile);
+
+                // Create precaution text element
+                const precautionText = document.createElement('div');
+                precautionText.classList.add('precaution-text');
+                precautionText.innerHTML ='  <h3>Precaution:</h3><p>${precaution}</p>' ;
+
+                // Display the result
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = '';  // Clear previous result
+               
+                resultDiv.appendChild(video);
+                resultDiv.appendChild(precautionText);
+            } else {
+                alert("Please upload an image, video, and provide precautionary information.");
+            }
+        });
+    </script>
+</body>
+</html>
