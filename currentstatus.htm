@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Device Check Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        /* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .icon-item {
+    position: relative;
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 36px;
+    color: #4CAF50;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .next-container {
+    margin-top: 30px;
+  }
+  
+  .next-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+    </style>
+  <div class="container">
+    <h1 class="title">Device Connection Status</h1>
+    
+    <!-- Icon Section -->
+    <div class="icon-container">
+      <div class="icon-item">
+        <img src="bluetooth-icon.png" class="icon" alt="Bluetooth">
+        <div class="checkmark" id="bluetoothCheck">&#10003;</div>
+      </div>
+      
+      <div class="icon-item">
+        <img src="speaker-icon.png" class="icon" alt="Speaker">
+        <div class="checkmark" id="speakerCheck">&#10003;</div>
+      </div>
+      
+      <div class="icon-item">
+        <img src="monitor-icon.png" class="icon" alt="Monitor">
+        <div class="checkmark" id="monitorCheck">&#10003;</div>
+      </div>
+    </div>
+    
+    <!-- Next Button -->
+    <div class="next-container">
+      <button id="nextButton" class="next-button" style="display: none;">Next</button>
+    </div>
+  </div>
+
+  <script src="scriptus.js"></script>
+</body>
+</html>
