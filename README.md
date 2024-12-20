@@ -47,16 +47,14 @@ A community-driven, AI-powered mobile app integrated with Google Maps and other 
 ![image](https://github.com/user-attachments/assets/8aad223a-85ff-4604-8e04-e172cafbe74b)
 ![image](https://github.com/user-attachments/assets/63801b77-b567-4084-8fe1-8548b78eb8b1)
 ![image](https://github.com/user-attachments/assets/2af8f755-a65c-4954-a0d1-2278a8f36b19)
-Picture1.jpg
-Picture2.jpg
-Picture3.jpg
-Picture4.jpg
-Picture5.jpg
-Picture6.jpg
-Picture7.jpg
-Picture8.jpg
-Picture9.jpg
-
+![Picture1.jpg]
+![Picture2.jpg]
+![Picture3.jpg]
+![Picture4.jpg]
+![Picture5.jpg]
+![Picture6.jpg]
+![Picture7.jpg]
+![Picture8.jpg]
 
 
 
