@@ -38,3 +38,21 @@ Proposed Solution
 Landslide and Road Alert System (LRAS)
 A community-driven, AI-powered mobile app integrated with Google Maps and other navigation systems to provide real-time updates on landslides, road blockages, or dangerous conditions.
 
+![image](https://github.com/user-attachments/assets/ab2e057e-349b-4949-82ba-f22d8370cf63)
+![image](https://github.com/user-attachments/assets/f3f131be-dda7-48ab-bc69-f0ad510ee147)
+![image](https://github.com/user-attachments/assets/3dd212b1-298a-4387-b3f3-61dbf409368b)
+![image](https://github.com/user-attachments/assets/cf8ddca7-ba32-42d1-9448-f9129b73364e)
+![image](https://github.com/user-attachments/assets/020bd8b7-3147-4382-824a-0b58f81145bc)
+![image](https://github.com/user-attachments/assets/9cd2ac2a-82d4-4668-a8c7-b993d76abca0)
+![image](https://github.com/user-attachments/assets/8aad223a-85ff-4604-8e04-e172cafbe74b)
+![image](https://github.com/user-attachments/assets/63801b77-b567-4084-8fe1-8548b78eb8b1)
+![image](https://github.com/user-attachments/assets/2af8f755-a65c-4954-a0d1-2278a8f36b19)
+
+
+
+
+
+
+
+
+
